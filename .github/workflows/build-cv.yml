@@ -26,14 +26,18 @@ jobs:
           name: compiled_pdf
           path: ./*.pdf
 
+      - name: Generate Tag Name
+        id: tag_name
+        run: echo "TAG_NAME=$(date +v%Y%m%d-%H%M%S)" >> $GITHUB_ENV
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.run_number }}
+          tag_name: ${{ env.TAG_NAME }}
+          release_name: Release ${{ env.TAG_NAME }}
           draft: false
           prerelease: false
 
