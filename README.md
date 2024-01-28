@@ -38,11 +38,12 @@ This makes it incredibly easy to version, update and build your CV.
 
 Now grab it, send it to your recruiter and good luck on getting the Job!🍀
 
-## 📝 Template
+## 📝 This is how the template looks:
 
-This is how the template looks:
-![grafik](https://github.com/NicoFilips/latex-template-cv/assets/35654361/8106fff2-0699-4f68-9abb-46e3892cd2d4)
 
+<a href="https://github.com/NicoFilips/latex-template-cv/">
+  <img src="https://github.com/NicoFilips/latex-template-cv/assets/35654361/8106fff2-0699-4f68-9abb-46e3892cd2d4" alt="Logo" width="600" height="900">
+</a>
 
 
 ## 💡 Help and Support![Uploading grafik.png…]()
