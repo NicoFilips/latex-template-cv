@@ -11,22 +11,28 @@ Fork this repository by clicking on the "Fork" button at the top right of this p
 ### Step 2: Clone the Repository
 
 Clone the forked repository to your local machine by running the following command in your terminal:
-
+```
 git clone https://github.com/NicoFilips/latex-template-cv.git
-
-yaml
+```
 
 ### Step 3: Edit the LaTeX File
 
 Open the `latex-template-cv.tex` file in your preferred LaTeX editor and insert or update it with your personal information.
+Also, change the foto1 in this Repository with a picture you want to use in your cv.
+commit and push your changes, the pipeline will automatically build and release a PDF for you.
+This makes it incredibly easy to version, update and build your CV.
 
-## 📝 Example
+Now grab it, send it to your recruiter and good luck on getting the Job!🍀
 
-Here is an example of what the finished resume might look like:
+## 📝 Template
 
-![Example Resume](link-to-example-resume-image)
+This is how the template looks:
+![grafik](https://github.com/NicoFilips/latex-template-cv/assets/35654361/8106fff2-0699-4f68-9abb-46e3892cd2d4)
 
-## 💡 Help and Support
+
+
+## 💡 Help and Support![Uploading grafik.png…]()
+
 
 If you have any questions or need assistance, feel free to create an issue or contact me directly.
 
