@@ -1,3 +1,17 @@
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+<a href="https://github.com/NicoFilips/latex-template-cv/">
+  <img src="https://github.com/NicoFilips/latex-template-cv/assets/35654361/f62e65ad-839d-4ead-82d6-179571849f9c" alt="Logo" width="200" height="200">
+</a>
+
+<blockquote>
+  <p>Source: DALL-E 3</p>
+</blockquote>
+
+[![Build LaTeX Document](https://github.com/NicoFilips/latex-template-cv/actions/workflows/build-cv.yml/badge.svg)](https://github.com/NicoFilips/latex-template-cv/actions/workflows/build-cv.yml)
+
+
 # 📄 LaTeX Template CV
 
 Welcome to the `latex-template-cv` repository! This repository offers you a simple and elegant template for your resume, created with LaTeX. 👔📝
