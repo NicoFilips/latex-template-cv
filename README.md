@@ -4,18 +4,18 @@ Welcome to the `latex-template-cv` repository! This repository offers you a simp
 
 ## 🌟 Getting Started
 
-### Step 1: Fork the Repository
+### ◽️ Step 1: Fork the Repository
 
 Fork this repository by clicking on the "Fork" button at the top right of this page. This will create a copy of the repository in your GitHub account.
 
-### Step 2: Clone the Repository
+### ◽️ Step 2: Clone the Repository
 
 Clone the forked repository to your local machine by running the following command in your terminal:
 ```
 git clone https://github.com/NicoFilips/latex-template-cv.git
 ```
 
-### Step 3: Edit the LaTeX File
+### ◽️ Step 3: Edit the LaTeX File
 
 Open the `latex-template-cv.tex` file in your preferred LaTeX editor and insert or update it with your personal information.
 Also, change the foto1 in this Repository with a picture you want to use in your cv.
