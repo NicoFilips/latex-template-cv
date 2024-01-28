@@ -1,0 +1,27 @@
+name: Build CV
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up TeX Live
+      uses: xu-cheng/latex-action@v2
+      with:
+        root_file: Lebenslauf.tex
+
+    - name: Compile LaTeX document
+      run: latexmk -pdf Lebenslauf.tex
+
+    - name: Upload PDF
+      uses: actions/upload-artifact@v2
+      with:
+        name: cv.pdf
+        path: main.pdf
+
