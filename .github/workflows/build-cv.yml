@@ -1,27 +1,27 @@
-name: Build CV
+name: Build LaTeX Document
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Set up TeX Live
-      uses: xu-cheng/latex-action@v2
-      with:
-        root_file: Lebenslauf.tex
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-full
 
-    - name: Compile LaTeX document
-      run: latexmk -pdf Lebenslauf.tex
+      - name: Compile LaTeX Document
+        run: latexmk -pdf -interaction=nonstopmode -halt-on-error Lebenslauf.tex
 
-    - name: Upload PDF
-      uses: actions/upload-artifact@v2
-      with:
-        name: cv.pdf
-        path: main.pdf
-
+      - name: Upload PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: compiled_pdf
+          path: ./*.pdf
