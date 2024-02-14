@@ -11,6 +11,19 @@
 
 [![Build LaTeX Document](https://github.com/NicoFilips/latex-template-cv/actions/workflows/build-cv.yml/badge.svg)](https://github.com/NicoFilips/latex-template-cv/actions/workflows/build-cv.yml)
 
+</div>
+
+## Inhaltsverzeichnis
+
+- [📄 LaTeX Template CV](#-latex-template-cv)
+- [🌟 Getting Started](#-getting-started)
+  - [Step 1: Fork the Repository](#step-1-fork-the-repository)
+  - [Step 2: Clone the Repository](#step-2-clone-the-repository)
+  - [Step 3: Edit the LaTeX File](#step-3-edit-the-latex-file)
+- [📝 This is how the template looks](#-this-is-how-the-template-looks)
+- [💡 Help and Support](#-help-and-support)
+- [🙌 Thanks](#-thanks)
+
 
 # 📄 LaTeX Template CV
 
@@ -18,44 +31,38 @@ Welcome to the `latex-template-cv` repository! This repository offers you a simp
 
 ## 🌟 Getting Started
 
-### ◽️ Step 1: Fork the Repository
+The journey to crafting your perfect CV with our LaTeX template involves a few key steps. Here’s how you can get started:
 
-Fork this repository by clicking on the "Fork" button at the top right of this page. This will create a copy of the repository in your GitHub account.
+### Step 1: Fork the Repository
 
-### ◽️ Step 2: Clone the Repository
+First things first, create your own copy of this template by forking the repository. Simply click on the "Fork" button at the top right of this page. This action will create a copy of this repository in your GitHub account, allowing you to make it your own.
 
-Clone the forked repository to your local machine by running the following command in your terminal:
+### Step 2: Clone the Repository
+
+With your fork complete, it’s time to bring the template into your local development environment. Open your terminal and run the following command:
+
 ```
 git clone https://github.com/NicoFilips/latex-template-cv.git
 ```
 
-### ◽️ Step 3: Edit the LaTeX File
 
-Open the `latex-template-cv.tex` file in your preferred LaTeX editor and insert or update it with your personal information.
-Also, change the foto1 in this Repository with a picture you want to use in your cv.
-commit and push your changes, the pipeline will automatically build and release a PDF for you.
-This makes it incredibly easy to version, update and build your CV.
+### Step 3: Edit the LaTeX File
 
-Now grab it, send it to your recruiter and good luck on getting the Job!🍀
+Dive into personalizing your CV by opening the `latex-template-cv.tex` file in your favorite LaTeX editor. Fill in your personal information, experiences, and education to reflect your professional journey. Don't forget to replace `foto1` with a professional photo of your choice to add a personal touch to your CV. Once you commit and push your changes, the automated pipeline will take over, building and releasing a PDF version of your CV. It's that easy!
 
-## 📝 This is how the template looks:
+## 📝 This is how the template looks
 
+Get a glimpse of what your future CV could look like by checking out the template preview below:
 
-<a href="https://github.com/NicoFilips/latex-template-cv/">
-  <img src="https://github.com/NicoFilips/latex-template-cv/assets/35654361/8106fff2-0699-4f68-9abb-46e3892cd2d4" alt="Logo" width="600" height="900">
-</a>
+![LaTeX CV Template Preview](https://github.com/NicoFilips/latex-template-cv/assets/35654361/8106fff2-0699-4f68-9abb-46e3892cd2d4)
 
+## 💡 Help and Support
 
-## 💡 Help and Support![Uploading grafik.png…]()
-
-
-If you have any questions or need assistance, feel free to create an issue or contact me directly.
+Encountering hiccups or have questions? We're here to help! Feel free to open an issue for support or direct inquiries. Our community and maintainers are committed to assisting you throughout your CV crafting process.
 
 ## 🙌 Thanks
 
-Thank you for choosing `latex-template-cv`. We hope it helps you in creating your professional resume!
+A big thank you for considering `latex-template-cv` for your professional needs. This project is a labor of love, aimed at helping individuals present themselves in the best light possible. We’re excited to be a part of your job-seeking journey and wish you the utmost success.
 
----
-
-Good luck with your applications! 🚀📈
+Good luck with your applications! Your next big opportunity is just around the corner. 🚀📈
 
